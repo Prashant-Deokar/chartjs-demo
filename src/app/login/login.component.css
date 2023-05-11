@@ -1,0 +1,18 @@
+.errorMsg{
+    color: red;
+    font-size: 12px;
+}
+.requiredStar{
+    color: red;
+}
+
+.white{
+    color: white;
+}
+
+/* margin left point */
+.ml-1{margin-left: 1%;}
+.ml-2{margin-left: 2%;}
+.ml-3{margin-left: 3%;}
+.ml-4{margin-left: 4%;}
+.ml-5{margin-left: 5%;}
