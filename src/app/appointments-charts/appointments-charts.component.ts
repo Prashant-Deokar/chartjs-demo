@@ -1,13 +1,11 @@
-import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 import { Chart} from 'chart.js';
-
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-appointments-charts',
+  templateUrl: './appointments-charts.component.html',
+  styleUrls: ['./appointments-charts.component.css']
 })
-export class HomeComponent implements AfterViewInit {
- 
+export class AppointmentsChartsComponent implements AfterViewInit {
   @ViewChild('lineChart', { static: false }) lineChart!: ElementRef;
   chart: any;
   chartData:any
@@ -39,4 +37,5 @@ appointmentsPerMonth = [200, 200, 400, 400, 50, 606, 150, 300, 900, 100, 300, 50
       }
     });
   }
+
 }
